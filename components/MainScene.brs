@@ -5,9 +5,11 @@ function init()
     m.timer1_group = m.top.findNode("timer1_group")
     m.timer1_logo = m.top.findNode("timer1_logo")
     m.timer1_text = m.top.findNode("timer1_text")
+    m.timer1_text.font.size = 80
     m.timer2_group = m.top.findNode("timer2_group")
     m.timer2_logo = m.top.findNode("timer2_logo")
     m.timer2_text = m.top.findNode("timer2_text")
+    m.timer2_text.font.size = 80
     m.pollTimer = m.top.findNode("pollTimer")
     
     port = createObject("roMessagePort")
