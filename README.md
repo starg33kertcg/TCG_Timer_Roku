@@ -16,9 +16,9 @@ The TCG Timer app is currently pending approval for the Roku App Store. Until th
 Server configuration panel
 ![roku_timer3](https://github.com/user-attachments/assets/3d95e7b6-294f-43b3-8ac2-b4a38815c658)
 Single timer
-![roku_timer2](https://github.com/user-attachments/assets/ef002e34-25c5-4a04-b531-71575a890dc3)
+![roku_timer1](https://github.com/user-attachments/assets/89067aeb-c4e6-410b-97d2-1da52a4e23eb)
 Dual timers enabled
-![roku_timer1](https://github.com/user-attachments/assets/32bb5cf3-505c-4667-9f1f-fd30c3814440)
+![roku_timer2](https://github.com/user-attachments/assets/112f4204-b529-411d-b664-ad0db8f04214)
 
 ## Configuration Instructions
 1. Install the TCG Timer app
