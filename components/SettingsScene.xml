@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SettingsScene" extends="Scene">
+  <script type="text/brightscript" uri="pkg:/components/SettingsScene.brs" />
+  
+  <interface>
+    <field id="ipAddress" type="string" />
+  </interface>
+
+  <children>
+    <Rectangle color="#000000FF" width="1280" height="720" />
+    <Label 
+        text="TCG Timer Server Setup"
+        width="1280"
+        horizAlign="center"
+        font="font:LargeBoldSystemFont"
+        translation="[0, 60]" />
+    <Label 
+        id="ipDisplay"
+        text="IP:PORT - "
+        width="800"
+        height="60"
+        horizAlign="center"
+        font="font:MediumBoldSystemFont"
+        translation="[240, 150]" />
+    <MarkupGrid
+      id="keypadGrid"
+      translation="[450, 240]"
+      itemComponentName="KeypadButtonItem"
+      numColumns="4"
+      numRows="4"
+      itemSpacing="[10,10]"
+      itemSize="[120, 70]"
+      />
+  </children>
+</component>

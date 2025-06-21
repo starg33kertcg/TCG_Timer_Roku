@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="KeypadButtonItem" extends="Group">
+
+  <interface>
+    <field id="itemContent" type="node" onChange="onContentChange" />
+  </interface>
+
+  <script type="text/brightscript" uri="pkg:/components/KeypadButtonItem.brs" />
+
+  <children>
+    <Rectangle id="background" color="#444444FF" width="120" height="70" />
+    <Label 
+        id="keyLabel" 
+        horizAlign="center" 
+        vertAlign="center" 
+        width="120" 
+        height="70" 
+        font="font:MediumBoldSystemFont" />
+  </children>
+
+</component>

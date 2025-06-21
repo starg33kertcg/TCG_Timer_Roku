@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+
+  <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+
+  <interface>
+    <field id="serverIP" type="string" />
+    <field id="close" type="boolean" />
+  </interface>
+
+  <children>
+
+    <Rectangle id="background" color="#000000FF" width="1280" height="720" />
+
+    <Group 
+        id="timer1_group" 
+        translation="[440, 150]"
+        visible="false" >
+
+      <Poster 
+          id="timer1_logo" 
+          width="400" 
+          height="200"
+          translation="[0, 0]" />
+          <Label 
+        id="timer1_text" 
+        width="400" 
+        height="150"
+        horizAlign="center"
+        vertAlign="center"
+        font="font:LargeBoldSystemFont"  translation="[0, 220]" />
+        </Group>
+
+    <Group 
+        id="timer2_group" 
+        translation="[440, 150]"
+        visible="false" >
+        
+      <Poster 
+          id="timer2_logo" 
+          width="400" 
+          height="200"
+          translation="[0, 0]" />
+          <Label 
+        id="timer2_text" 
+        width="400" 
+        height="150"
+        horizAlign="center"
+        vertAlign="center"
+        font="font:LargeBoldSystemFont"  translation="[0, 220]" />
+        </Group>
+    
+    <Timer id="pollTimer" repeat="true" duration="1" />
+
+  </children>
+</component>
