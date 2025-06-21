@@ -5,6 +5,8 @@ TCG Timer is an easy to install LAN-based timer countdown app for local trading 
 
 The Roku app provides an additional option for shops and clubs that host TCG tournaments to stream the countdown timers. The TCG Timer server is still required for core functionality. The Roku app polls for timer updates through via API over the LAN and displays them.
 
+The TCG Timer app is currently pending approval for the Roku App Store. Until then, the entire GitHub repository can be downloaded as a .ZIP file and sideloaded directly to your Roku device in developer mode.
+
 **Why should you use the Roku app?**
 - If you don't have a Chromecast connected to a TV or monitor.
 - If you don't have TVs or monitors set up as multiple displays outputs from a computer.
