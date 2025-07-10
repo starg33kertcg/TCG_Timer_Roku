@@ -3,8 +3,7 @@ major_version=1
 minor_version=0
 build_version=0
 
-mm_icon_focus_hd=pkg:/images/app_icon_hd.png
-mm_icon_side_hd=pkg:/images/app_icon_hd.png
+mm_icon_focus_hd=pkg:/images/app_home_icon.png
 
 splash_screen_hd=pkg:/images/app_icon_hd.png
 ui_resolutions=hd
